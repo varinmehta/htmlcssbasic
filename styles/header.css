@@ -79,7 +79,7 @@
 .upload-container,
 .apps-container,
 .notification-complete,
-.user-icon {
+.user-container {
     position: relative;
 }
 
@@ -88,7 +88,7 @@
 .upload-container .tooltip,
 .apps-container .tooltip,
 .notification-complete .tooltip,
-.user-icon .tooltip {
+.user-container .tooltip {
     position: absolute;
     background-color: gray;
     color: white;
@@ -109,7 +109,7 @@
 .upload-container:hover,
 .apps-container:hover,
 .notification-complete:hover,
-.user-icon:hover {
+.user-container:hover {
     cursor: pointer;
 }
 
@@ -118,7 +118,7 @@
 .upload-container:hover .tooltip,
 .apps-container:hover .tooltip,
 .notification-complete:hover .tooltip,
-.user-icon:hover .tooltip {
+.user-container:hover .tooltip {
     opacity: 1;
 }
 
