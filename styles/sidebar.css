@@ -6,20 +6,29 @@
     bottom: 0;
     width: 72px;
     background-color: white;
-    margin-top: 40px;
+    z-index: 1200;
+    padding-top: 5px;
 }
 
 .sidebar-link {
-    height: 76px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .sidebar-link:hover {
     background-color: rgb(192, 192, 192);
+    cursor: pointer;
 }
 
 .sidebar-link img {
-    height: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 24px;
+    margin-bottom: 4px;
+}
+
+.sidebar-link div{
+    font-family: roboto;
+    font-size: 10px;
 }
